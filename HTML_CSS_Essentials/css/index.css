@@ -24,6 +24,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 30px; /*Stops the logo hugging the left hand side of the page*/
 }
 
 /* navigation links */
@@ -106,4 +107,29 @@ h1, h2 {
     bottom: 30px;
     right: 150px;
     position: absolute;
+}
+
+/* Club Ethod */
+
+#club-ethos{
+    height:600px;
+
+}
+
+#left-about{
+padding-top:30px;
+width: 33%; /*Placed 33% out from the left*/
+float:left;
+}
+
+#right-about{
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#center-about{
+    margin:0, auto;
+    width:33%;
+    /*There is no float center value, use margin 0, auto to centre the "center" div*/
 }
