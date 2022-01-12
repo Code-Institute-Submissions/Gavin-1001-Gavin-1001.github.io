@@ -188,7 +188,8 @@ hr {
 }
 
 #circle-cover-bg{
-    background: url(../images/circle-cover-bg-image.jpeg) no-repeat center center;
+    background: url(../images/circular-cover-image-2.jpeg) no-repeat center center; 
+    /* Find an image that works in the circular cover */
     height: 100%;
     border-radius: 50%;
 }
