@@ -44,27 +44,27 @@ h1, h2 {
     list-style-type: none;
 }
 
-#menu a{
+#menu a {
     text-decoration: none; /*Removes hyperlink underline*/
     color: inherit; /*Inherts the body color*/
 }
 
-#menu a:hover{
+#menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
 
-.active{
+.active {
     border-bottom: 1px solid #3a3a3a;
 }
 
-#hero-outer{
+/* hero image and cover text */
+#hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
-    position: relative
+    position: relative;
 }
-
-#hero-image{
+#hero-image {
     height: 600px;
     width: 100%;
     background: url("../images/meditate-background.jpeg") no-repeat center center;
@@ -109,44 +109,44 @@ h1, h2 {
     position: absolute;
 }
 
-/* Club Ethod */
+/* Club Ethos */
 
-#club-ethos{
-    height:600px;
+#club-ethos {
+    height: 600px;
 
 }
 
-#left-about{
+#left-about {
 padding-top:30px;
 width: 33%; /*Placed 33% out from the left*/
 float:left;
 /*background-color: blue; Adding color to divs helps with debugging issues that may arise*/
 }
 
-#right-about{
+#right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
 }
 
-#center-about{
-    margin:0, auto;
-    width:33%;
+#center-about {
+    width: 33%;
+    margin: 0 auto;
     /*There is no float center value, use margin 0, auto to centre the "center" div*/
 }
 
-hr{
+hr {
     border-top: 1px solid #3a3a3a;
-    width:100%;
+    width: 100%;
     margin: 5px 0;
 }
 
-.left-about-heading{
-    width:60%;
-    float:right;
-    line-height:20px;
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
     clear: both; /*Setting clear:both ensures that each content is aligned properly*/
-    margin-bottom:50px;
+    margin-bottom: 50px;
 }
 
 .right-about-heading{
@@ -154,7 +154,7 @@ hr{
     float:left;
     line-height:20px;
     clear: both; /*Setting clear:both ensures that each content is aligned properly*/
-    margin-bottom:50px;
+    margin-bottom: 50px;
 }
 
 /************************/
@@ -168,4 +168,27 @@ hr{
     text-align:right;
 }
 
+#welcome{
+    text-align:center;
+    margin: 20px 0;
+    font-size:280%;
+}
+
 /***********************/
+
+#circle-container{
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0, auto;
+}
+
+#circle-cover-bg{
+    background: url(../images/circle-cover-bg-image.jpeg) no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
