@@ -174,7 +174,79 @@ hr {
     font-size:280%;
 }
 
-/***********************/
+/***** -- What is Meditation section -- *****/
+#meditation-intro-heading h2{
+
+    text-align:center;
+    padding-top:20px;
+    background-color:#8c918f;
+    color:pink;
+    font-size:150%;
+
+}
+
+#meditate-paragraph{
+    background-color:green;
+    text-align:center;
+    padding-left:110px;
+    padding-right:110px;
+    padding-top:60px;
+    padding-bottom:100px;
+    font-size: 125%; 
+}
+
+/***********END OF Meditation Section************/
+
+/***********START of Exercise Section************/
+
+.exercise1-container{
+    padding-top:30px;
+    display:flex;
+    padding-left:70px;
+}
+
+#exercises-heading2{
+    font-size: 125%;
+    text-align: center;
+    padding-left:25px;
+    padding-top:25px;
+}
+
+#exercise1-heading{
+    padding-left: 125px;
+}
+
+#exercise1-paragraph{
+    
+
+    background-color:red;
+
+}
+.image{
+    flex-basis: 40%;
+    padding-left: 20px;
+    border-radius: 50px;
+
+    position:relative;
+    top:0px;
+    left:190px;
+    bottom: 150px;
+    right:100px;
+    
+}
+
+#exercise1-heading{
+    
+}
+
+#test{
+    border: 2px solid #bd1616;
+}
+
+
+
+
+/***********END of exercise Section************/
 
 #circle-container{
     width: 300px;
@@ -196,7 +268,7 @@ hr {
 }
 
 #times{
-    background-image: url('../images/dublin-city.webp');
+    background-image: url('../images/dublin-cities.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -208,9 +280,9 @@ hr {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .6);
     width: 20%;
-    height: 300px;
+    height: 400px; /*Set at 300px initially*/
     float:left;
-    padding: 30px 0 0 10px;
+    padding: 125px 0 0 10px; /*30px 0 0 10px;*/
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
@@ -219,6 +291,8 @@ hr {
 footer{
 
     height:150px;
+    position: relative;
+    bottom:0px;
 }
 
 .social-networks{
