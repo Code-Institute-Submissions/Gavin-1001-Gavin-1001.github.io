@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&family=Mochiy+Pop+P+One&display=swap');
 
 * {
     margin: 0;
@@ -213,23 +213,28 @@ hr {
 }
 
 #exercise1-heading{
-    padding-left: 125px;
+    padding-left: 275px;
+    font-size:90%;
 }
 
+#exercise1-heading h2{
+    font-family: Mochiy Pop P One, sans-serif;
+}
+/*
 #exercise1-paragraph{
     background-color:red;
 
-}
+} */
 #exercise1-para{
     padding-left:40px;
+    font-size: 120%;
+    padding-top: 30px;
 }
 
 .image{
     flex-basis: 40%;
-    padding-left: 200px;
+    padding-left: 210px;
     border-radius: 50px;
-
-    /*position:relative;*/
     top:0px;
     left:190px;
     bottom: 150px;
@@ -237,9 +242,7 @@ hr {
     
 }
 
-#exercise1-heading{
-    padding-left: 275px;
-}
+
 
 #test{
     border: 2px solid #bd1616;
