@@ -273,7 +273,7 @@ hr {
 }
 
 #times{
-    background-image: url('../images/dublin-cities.jpeg');
+    background-image: url('../images/meditate-on-sea.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -291,6 +291,10 @@ hr {
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
+}
+
+#exercise-end-heading-row{
+    border: 2px solid #bd1616;
 }
 
 footer{
@@ -314,3 +318,4 @@ footer{
     padding: 5%;
     color: #3a3a3a;
 }
+
