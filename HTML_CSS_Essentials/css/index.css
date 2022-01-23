@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&family=Mochiy+Pop+P+One&family=Neonderthaw&display=swap');
 
 * {
     margin: 0;
@@ -15,7 +15,7 @@ body {
 /* headings and logo */
 
 h1, h2 {
-    font-family: Oswald, sans-serif;
+    font-family: Mochiy Pop P One, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
@@ -89,7 +89,7 @@ h1, h2 {
         transform: scale(1.1);
     }
 }
-
+/*
 #cover-text{
     font-size: 130%;
     font-family: Oswald, sans-serif;
@@ -107,7 +107,8 @@ h1, h2 {
     bottom: 30px;
     right: 150px;
     position: absolute;
-}
+} 
+*/
 
 /* Club Ethos */
 
@@ -147,6 +148,7 @@ hr {
     line-height: 20px;
     clear: both; /*Setting clear:both ensures that each content is aligned properly*/
     margin-bottom: 50px;
+ /* ------- Add a font-family to this ----------  */
 }
 
 .right-about-heading{
@@ -186,13 +188,14 @@ hr {
 }
 
 #meditate-paragraph{
-    background-color:green;
+    background-color:white;
     text-align:center;
     padding-left:110px;
     padding-right:110px;
     padding-top:60px;
     padding-bottom:100px;
     font-size: 125%; 
+    font-family: Lato, sans-serif;
 }
 
 /***********END OF Meditation Section************/
@@ -229,6 +232,7 @@ hr {
     padding-left:40px;
     font-size: 120%;
     padding-top: 30px;
+    font-family: Lato, sans-serif;
 }
 
 .image{
@@ -244,7 +248,7 @@ hr {
 
 
 
-#test{
+#hr_exercises_top{
     border: 2px solid #bd1616;
 }
 
@@ -272,7 +276,7 @@ hr {
     border-radius: 50%;
 }
 
-#times{
+#session-bar{
     background-image: url('../images/meditate-on-sea.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -281,7 +285,11 @@ hr {
     overflow: hidden;
 }
 
-#times div {
+#meditate_hr{
+    border: 1px solid black;
+}
+
+#session-bar div {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .6);
     width: 20%;
@@ -294,7 +302,19 @@ hr {
 }
 
 #exercise-end-heading-row{
-    border: 2px solid #bd1616;
+    border: 2px solid black;
+}
+
+#contact_us_heading{
+    font-size: 125%;
+    text-align: center;
+    padding-left:25px;
+    padding-top:25px;
+    font-family: Mochiy Pop P One, sans-serif;
+}
+
+#contact_us_heading_row_ending{
+    border: 2px solid black;
 }
 
 footer{
@@ -304,18 +324,22 @@ footer{
     bottom:0px;
 }
 
-.social-networks{
+.social-links{
     text-align:center;
 }
 
-.social-networks > li{
+.social-links > li{
     display: inline; /*Displays the links to */
 }
 
-.social-networks i {
+.social-links i {
     font-size:160%;
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+#iframe-maps{
+    padding-left:1065px;
 }
 
