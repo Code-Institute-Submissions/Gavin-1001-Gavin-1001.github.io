@@ -32,6 +32,9 @@ h1, h2 {
 #menu{
     font-size: 110%;
     letter-spacing: 4px;
+    position: fixed;
+    top: 0;
+    width:100%;
 }
 
 #menu, #logo{
@@ -80,7 +83,7 @@ h1, h2 {
 }
 
 /*Ceates the level of zoom for hero image*/
-@keyframes hero-zoom{
+/*@keyframes hero-zoom{
     from{
         transform: scale(1);
     }
@@ -88,92 +91,10 @@ h1, h2 {
         transform: scale(1.1);
     }
 }
-/*
-#cover-text{
-    font-size: 130%;
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-
-    width: 300px;
-    height: 200px;
-
-    padding-top: 40px;
-    padding-left: 10px;
-
-    background-color: rgba(241, 109, 107, .7);
-
-    bottom: 30px;
-    right: 150px;
-    position: absolute;
-} 
 */
 
-/* Club Ethos */
 
-#club-ethos {
-    height: 600px;
 
-}
-
-#left-about {
-padding-top:30px;
-width: 33%; /*Placed 33% out from the left*/
-float:left;
-/*background-color: blue; Adding color to divs helps with debugging issues that may arise*/
-}
-
-#right-about {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-}
-
-#center-about {
-    width: 33%;
-    margin: 0 auto;
-    /*There is no float center value, use margin 0, auto to centre the "center" div*/
-}
-
-hr {
-    border-top: 1px solid #3a3a3a;
-    width: 100%;
-    margin: 5px 0;
-}
-
-.left-about-heading {
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both; /*Setting clear:both ensures that each content is aligned properly*/
-    margin-bottom: 50px;
- /* ------- Add a font-family to this ----------  */
-}
-
-.right-about-heading{
-    width:60%;
-    float:left;
-    line-height:20px;
-    clear: both; /*Setting clear:both ensures that each content is aligned properly*/
-    margin-bottom: 50px;
-}
-
-/************************/
-/*Pushes the titles to the right side instead of the left, comment it out and look at the h2 tags move to the left*/
-.right-about-heading h2{
-    text-align:right;
-}
-
-/*Pushes the paragraphs to the right side instead of the left, comment it out and look at the p tags move to the left*/
-.right-about-heading p{
-    text-align:right;
-}
-
-#welcome{
-    text-align:center;
-    margin: 20px 0;
-    font-size:280%;
-}
 
 /***** -- What is Meditation section -- *****/
 #meditation-intro-heading h2{
