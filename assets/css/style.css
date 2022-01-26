@@ -77,21 +77,62 @@ h1, h2 {
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
-
-#cover-text, #cover-text h2{
-    color: #fff;
-}
-
-/*Ceates the level of zoom for hero image*/
-/*@keyframes hero-zoom{
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.1);
-    }
+/*
+*{
+    box-sizing: border-box;
 }
 */
+
+/*Sessions go here!!!!*/
+#container_session{
+    background-color:blue;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, .6);
+    text-align:center;
+    padding:5px;
+    font-size:130%;
+    border-radius:25px;
+    box-sizing: border-box;
+    width: 33%;
+}
+
+
+
+#session-bar div {
+    color: #fafafa;
+    /*background-color: rgba(0, 0, 0, .6); */
+    height: 250px; /*Set at 300px initially*/
+    float:left;
+    padding: 75px 0 0 20px; /*30px 0 0 10px;*/
+    border: 2px solid white;
+
+} 
+
+
+#session-bar{
+    /* background-image: url('../images/meditate-on-sea.jpeg'); */
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     width: 100%;
+     overflow: hidden;
+ }
+ 
+
+.container_under{
+    background-color: rgba(0, 0, 0, .6);
+    text-align:center;
+    padding:5px;
+    font-size:130%;
+    border-radius:25px;
+    box-sizing: border-box;
+    width:50%;
+}
+
+
+
 
 
 
@@ -196,30 +237,12 @@ h1, h2 {
     border-radius: 50%;
 }
 
-#session-bar{
-    background-image: url('../images/meditate-on-sea.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    overflow: hidden;
-}
 
 #meditate_hr{
     border: 1px solid black;
 }
 
-#session-bar div {
-    color: #fafafa;
-    background-color: rgba(0, 0, 0, .6);
-    width: 20%;
-    height: 400px; /*Set at 300px initially*/
-    float:left;
-    padding: 125px 0 0 10px; /*30px 0 0 10px;*/
-    text-align: center;
-    border: 2px solid white;
-    box-sizing: border-box;
-}
+
 
 #exercise-end-heading-row{
     border: 2px solid black;
@@ -229,8 +252,8 @@ h1, h2 {
     font-size: 125%;
     text-align: center;
     padding-left:25px;
-    padding-top:25px;
-    font-family: Mochiy Pop P One, sans-serif;
+    padding-top:px;
+    font-family: Mochiy Pop 25P One, sans-serif;
 }
 
 #contact_us_heading_row_ending{
@@ -264,3 +287,5 @@ footer{
     padding-left:1065px;
 }
 
+
+/* ///////////////////// CONTACT US ///////////////////// */
