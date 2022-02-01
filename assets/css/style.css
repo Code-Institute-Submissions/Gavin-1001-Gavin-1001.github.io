@@ -38,11 +38,11 @@ h1, h2 {
 }
 
 #menu, #logo{
-    line-height: 75px;
+    line-height: 75px; 
 }
 
 #menu li {
-    float: right;
+    float: right; 
     margin-right: 30px;
     list-style-type: none;
 }
@@ -60,14 +60,14 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* hero image and cover text */
+/* background image */
 #hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
-#hero-image {
+#background-image {
     height: 600px;
     width: 100%;
     background: url("../images/meditate-background.jpeg") no-repeat center center;
@@ -132,8 +132,17 @@ h1, h2 {
 }
 
 
+/*     -- bootstrap navbar --         */
+.navbar-brand{
+    font-family: 'Comforter', cursive;
+    font-size: 350%;
+}
 
-
+.navbar-nav li {
+    font-family: 'Comforter', cursive;
+    font-size: 210%;
+}
+/* -- END -- */
 
 
 
@@ -279,7 +288,9 @@ footer{
 .social-links i {
     font-size:160%;
     margin: 1%;
-    padding: 5%;
+    padding: 10%;
+    padding-top:15px;
+    padding-bottom:0px;
     color: #3a3a3a;
 }
 
