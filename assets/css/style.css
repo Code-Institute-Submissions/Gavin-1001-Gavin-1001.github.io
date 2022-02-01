@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&family=Mochiy+Pop+P+One&family=Neonderthaw&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -72,43 +71,43 @@ h1, h2 {
     width: 100%;
     background: url("../images/meditate-background.jpeg") no-repeat center center;
 
-/*Animates zoom effect on loading page*/
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
 }
-/*
-*{
-    box-sizing: border-box;
-}
-*/
+
 
 /*Sessions go here!!!!*/
-#container_session{
-    background-color:blue;
+
+
+div#container_top_narrower {
+    margin-left: 2.5%; /*ADDED*/
 }
 
 .container_top{
     background-color: rgba(0, 0, 0, .6);
     text-align:center;
-    padding:5px;
+    padding:0px;
     font-size:130%;
     border-radius:25px;
     box-sizing: border-box;
-    width: 33%;
+    width: 30%; /*changing the width to allow for the margin to align correctly */
 }
 
+.container_under{
+    background-color: rgba(0, 0, 0, .6);
+    text-align:center;
+    padding:5px;
+    font-size:120%;
+    border-radius:25px;
+    box-sizing: border-box; /*ADDED*/
+    width: 45%;
+}
+
+div#bottom_container_narrower{
+    margin-left: 2.5%;
+    box-sizing: border-box;
+} /*Added*/
 
 
-#session-bar div {
-    color: #fafafa;
-    /*background-color: rgba(0, 0, 0, .6); */
-    height: 250px; /*Set at 300px initially*/
-    float:left;
-    padding: 75px 0 0 20px; /*30px 0 0 10px;*/
-    border: 2px solid white;
 
-} 
 
 
 #session-bar{
@@ -121,15 +120,7 @@ h1, h2 {
  }
  
 
-.container_under{
-    background-color: rgba(0, 0, 0, .6);
-    text-align:center;
-    padding:5px;
-    font-size:130%;
-    border-radius:25px;
-    box-sizing: border-box;
-    width:50%;
-}
+
 
 
 /*     -- bootstrap navbar --         */
@@ -300,3 +291,7 @@ footer{
 
 
 /* ///////////////////// CONTACT US ///////////////////// */
+
+
+
+
