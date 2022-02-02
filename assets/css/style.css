@@ -67,10 +67,10 @@ h1, h2 {
     position: relative;
 }
 #background-image {
-    height: 600px;
-    width: 100%;
-    background: url("../images/meditate-background.jpeg") no-repeat center center;
-
+    height: 100%;
+    width: 100%; 
+    background: url("../images/meditate_background__.jpeg") no-repeat;
+    background-size: cover;
 }
 
 
@@ -117,6 +117,7 @@ div#bottom_container_narrower{
      background-position: center;
      width: 100%;
      overflow: hidden;
+     padding-top:50px;
  }
  
 
@@ -291,6 +292,8 @@ footer{
 
 
 /* ///////////////////// CONTACT US ///////////////////// */
+
+
 
 
 
