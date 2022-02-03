@@ -336,6 +336,20 @@ footer{
          width: 600px;
          clear: both;
      }
+
+     #hero-outer{
+         /*Remove the white space by bringing up the height on the hero-outer*/
+     }
+/*
+     #container_top_narrower{
+         display:none;
+         visibility: hidden;
+     }
+  */   
+     #bottom_container_narrower{
+         display: none;
+         visibility: hidden;
+     }
  }
 
       /*
