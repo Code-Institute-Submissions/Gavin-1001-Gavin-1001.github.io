@@ -183,12 +183,15 @@ div#bottom_container_narrower{
 
 /***********START of Exercise Section************/
 
+
+
 .exercise1-container{
     padding-top:30px;
     display:flex;
     padding-left:70px;
 }
 
+/*Styles the Meditation Techniques heading*/
 #exercises-heading2{
     font-size: 125%;
     text-align: center;
@@ -196,29 +199,33 @@ div#bottom_container_narrower{
     padding-top:25px;
 }
 
-#exercise1-heading{
+/*Styles each exercise heading*/
+.exercise1-heading{
     padding-left: 275px;
-    font-size:90%;
+    font-size:70%;
 }
 
 #exercise1-heading h2{
     font-family: Mochiy Pop P One, sans-serif;
+    
 }
 /*
 #exercise1-paragraph{
     background-color:red;
 } */
-#exercise1-para{
-    padding-left:40px;
-    font-size: 120%;
+.exercise1-para{
+    font-size: 135%;
     padding-top: 30px;
+    padding-left:90px;
+    padding-right: 70px;
     font-family: Lato, sans-serif;
 }
 
 .image{
-    flex-basis: 40%;
+    flex-basis: 150%;
     padding-left: 210px;
     border-radius: 50px;
+    max-width: 50%;
     top:0px;
     left:190px;
     bottom: 150px;
@@ -332,9 +339,6 @@ footer{
 
      }
 
-     .image{
-
-     }
 
      #session-bar{
       width: 600px;  
@@ -365,6 +369,13 @@ footer{
          display: none;
          visibility: hidden;
      }
+
+     .image{
+
+        width: 10%;
+        height: auto;
+     }
+
  }
 
       /*
