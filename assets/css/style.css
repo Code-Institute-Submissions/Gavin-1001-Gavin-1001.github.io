@@ -155,6 +155,12 @@ div#bottom_container_narrower{
 }
 /* -- END -- */
 
+#exercise_techniques_para{
+    padding-top:20px;
+    padding-right:350px;
+    padding-left:350px;
+
+}
 
 
 /***** -- What is Meditation section -- *****/
@@ -256,12 +262,6 @@ div#bottom_container_narrower{
     
 }
 
-#circle-cover-bg{
-    background: url(../images/rsz_1download.jpg) no-repeat center center; 
-    /* -- The image is set to 500px 500px using PicResize, maybe try 600px 600px--  */
-    height: 100%;
-    border-radius: 50%;
-}
 
 
 #meditate_hr{

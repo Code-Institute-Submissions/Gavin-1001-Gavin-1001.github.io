@@ -4,6 +4,7 @@
     border: 0 none;
     font-weight: 700;
     letter-spacing: 1px;
+    
 
     background:green;
     border-radius: 25px;
@@ -46,3 +47,8 @@
     border: 8px solid white;
 
 } 
+
+#contactForm h2{
+    text-align: center;
+}
+
