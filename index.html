@@ -68,8 +68,62 @@
         </div>
     </section>
 
+    <section id="welcome">
+        <div id="welcome_container">
+            <div id="welcome_heading">
+                <h2>Welcome</h2>
+            </div>
+            <div id="welcome_paragraph">
+                <p> 
+                    Welcome to this section
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="meditate-section">
+        <div id="container"> 
+            <div id="meditation-intro-heading">
+                <h2>What is Meditation?</h2>
+            </div>
+
+            <div id="meditate-paragraph">
+                <p>
+                    Meditation is a set of techniques that are intended to encourage a heightened state of awareness and focused attention. 
+                    Meditation is also a consciousness technique that has been shown to have a wide number of benefits on psychological well-being.
+                </p>
+                <br>
+                <div id="types_of_meditation">
+                    <div id="types_of_meditation_heading">
+                        <h3>Types</h3>
+                    </div>
+                    <p>
+                        <ul>
+                            <li>
+                                Concentrative Meditation:
+                                This involves focusing all of your attention on a specific thing while tuning out everything else around you.
+                                The goal is to really experience whatecer you are focusing on, whether it's your breathing, a specific word, or a mantra in order to reach
+                                a higher state of being. 
+                            </li>
+                            <li>
+                                Mindfulness Meditation:
+                                This includes, among others, both mindfulness-based stress reductions (MBSR) and mindfulness-based cognitive therapy (MBCT). Mindfulness can target 
+                                different issues, such as depression, which means that its focus may be different from practice to practice. Overall, it involves the state of being 
+                                aware of and involved in the present moment and making yourself open, aware, and accepting. 
+                            </li>
+                        </ul>
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+   <!-- <div> Calender</div> The calender does't break here!-->
+
     <section id="session-bar">
         <!--This section holds the session types and locations -->
+  <!-- <h3>Calender</h3> -->
         <div id="container_top_narrower"></div>
             <div class="container_top">
                 <h2>Monday</h2>
@@ -109,24 +163,6 @@
     <br>
     <br>
     <br> 
-    <section id="meditate-section">
-        <div id="container"> 
-            <div id="meditation-intro-heading">
-                <h2>What is Meditation?</h2>
-            </div>
-
-            <div id="meditate-paragraph">
-                <p>
-                    Meditation is a set of techniques that are intended to encourage a heightened state of awareness and focused attention. 
-                    Meditation is also a consciousness technique that has been shown to have a wide number of benefits on psychological well-being.
-                </p>
-                <br>
-                <p>
-                    Visit us add some text here
-                </p>
-            </div>
-        </div>
-    </section>
     <hr id="hr_exercises_top">
     <section id="meditate-exercises-at-home">
         <div id="exercises-container">
@@ -371,13 +407,13 @@
       <!-- Name input -->
       <div class="mb-3">
         <label class="form-label" for="name">Name</label>
-        <input class="form-control" id="name" type="text" placeholder="Name" />
+        <input class="form-control" id="name" type="text" placeholder="Name" required />
       </div>
   
       <!-- Email address input -->
       <div class="mb-3">
         <label class="form-label" for="emailAddress">Email Address</label>
-        <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" />
+        <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" required/>
       </div>
   
       <!-- Message input -->
@@ -391,7 +427,7 @@
   
       <!-- Form submit button -->
       <div class="d-grid">
-        <button class="btn btn-primary btn-lg" type="submit" onclick="submitFunc()">Submit</button>
+        <button class="btn btn-primary btn-lg" type="submit">Submit</button>
       </div>
   
     </form>

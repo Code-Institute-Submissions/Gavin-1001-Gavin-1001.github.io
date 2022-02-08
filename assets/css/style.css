@@ -9,6 +9,9 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
+    /*background-color:#ABBAE3;  USE THIS BACKGROUND COLOR*/ 
+    
+    
 }
 
 /* headings and logo */
@@ -76,6 +79,20 @@ h1, h2 {
 
 /*Sessions go here!!!!*/
 
+#welcome_container{
+    padding-top:60px;
+}
+
+#welcome_heading h2{
+    font-family: Mochiy Pop P One, sans-serif;
+    font-size:150%;
+    background-color:#8c918f;
+    text-align: center;
+}
+
+#welcome_paragraph{
+    text-align: center;
+}
 
 #session-bar{
      background-repeat: no-repeat;
@@ -85,6 +102,7 @@ h1, h2 {
      overflow: hidden;
      padding-top:50px;
  }
+
  
 
 
@@ -145,7 +163,7 @@ div#bottom_container_narrower{
     text-align:center;
     padding-top:20px;
     background-color:#8c918f;
-    color:pink;
+    color:black;
     font-size:150%;
 
 }
@@ -189,7 +207,6 @@ div#bottom_container_narrower{
 /*
 #exercise1-paragraph{
     background-color:red;
-
 } */
 #exercise1-para{
     padding-left:40px;
@@ -296,7 +313,6 @@ footer{
 /* ///////////////////// CONTACT US ///////////////////// */
 /*
 @media only screen and (max-width:1200px){
-
     #session-bar{
         width:65%;
         height: 1200px;
@@ -306,8 +322,7 @@ footer{
         padding: 30px 0;
         margin: 0;
     }
-
- }
+}
  */
 
  @media screen and (max-width:750px){
@@ -356,6 +371,3 @@ footer{
       https://stackoverflow.com/questions/27853884/media-queries-and-image-swapping
       stackoverflow article on @media for image images
       */ 
-
-
-
