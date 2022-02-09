@@ -1,10 +1,10 @@
 # Code-Institute
 ## Table of contents
-* [General info](#general-info)
+* [General Introduction](#general-introduction)
 * [Technologies](#technologies)
 * [Setup](#setup)
 
-## General info
+## General Introduction
 This project is simple Lorem ipsum dolor generator.
 	
 ## Technologies
