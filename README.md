@@ -24,8 +24,13 @@ Futures works will include:
 * Implement a site map for ease of use.
 
 ## Design Brief
- ## The main aim of Meditate is create a webpage that will 
+The main aim of Meditate is create a webpage that will (encourage[change word]) users to be more concious of they're mental health in the form of Meditation/Mindfulness. Another aim of the site is to provide simplistic, quick exercises for users to preform at home. For the basic design principle of the site was to keep it simplistic, easy to read information. The flow of the web site follows that trend of simplicity and calmness with it's colours and fonts. Below I have included my reasoning for choosing my font and colours for the project. 
 
+Colours:
+The justification for choosing the colours below are inline with the overall design flow. I chose to stick to Blue / off Blue colours as these colors having a calming, and are proven to decrease the heart rate, lower blood pressure and reduce anxiety levels. I have included the colours below along with they're corresponding hex values.
+
+--ADD COLOURS--
+Font:
 
 	
 ## Technologies
