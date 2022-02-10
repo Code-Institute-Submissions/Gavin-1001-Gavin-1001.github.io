@@ -4,6 +4,9 @@
 * [User Experience](#user-experience)
 * [Design Brief](#design-brief)
 	* [Images](#images)
+	* [Colours](#colours)
+	* [Wireframe Diagrams](#wireframes-diagrams)
+	* [Fonts](#fonts)
 * [Technologies](#technologies)
 * [Testing](#testing)
 * [Deployment](#deployment)
@@ -42,6 +45,7 @@ Font:
 The fonts that I chose are from the Google Fonts library. I chose to use Google Fonts as there is a better selection of fonts/ font styles compared to other libraries. Below I have included the fonts that were used in the project
 
 --ADD FONTS-- and justification for fonts
+
 	
 ## Technologies
 * HTML
