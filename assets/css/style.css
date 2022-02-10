@@ -1,321 +1,289 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&family=Mochiy+Pop+P+One&family=Neonderthaw&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&family=Mochiy+Pop+P+One&family=Neonderthaw&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 body {
-    font-family: Lato, sans-serif;
-    font-weight: 300;
-    color: #3a3a3a;
-    /*background-color:#ABBAE3;  USE THIS BACKGROUND COLOR*/ 
-    
-    
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  color: #3a3a3a;
+  /*background-color:#ABBAE3;  USE THIS BACKGROUND COLOR*/
 }
 
 /* headings and logo */
 
-h1, h2 {
-    font-family: Mochiy Pop P One, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #252525;
+h1,
+h2 {
+  font-family: Mochiy Pop P One, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #252525;
 }
 
 #logo {
-    float: left;
-    font-size: 280%;
-    margin-left: 30px; /*Stops the logo hugging the left hand side of the page*/
+  float: left;
+  font-size: 280%;
+  margin-left: 30px; /*Stops the logo hugging the left hand side of the page*/
 }
 
 /* navigation links */
 
-#menu{
-    font-size: 110%;
-    letter-spacing: 4px;
-    position: fixed;
-    top: 0;
-    width:100%;
+#menu {
+  font-size: 110%;
+  letter-spacing: 4px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-#menu, #logo{
-    line-height: 75px; 
+#menu,
+#logo {
+  line-height: 75px;
 }
 
 #menu li {
-    float: right; 
-    margin-right: 30px;
-    list-style-type: none;
+  float: right;
+  margin-right: 30px;
+  list-style-type: none;
 }
 
 #menu a {
-    text-decoration: none; /*Removes hyperlink underline*/
-    color: inherit; /*Inherts the body color*/
+  text-decoration: none; /*Removes hyperlink underline*/
+  color: inherit; /*Inherts the body color*/
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+  border-bottom: 1px solid #3a3a3a;
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+  border-bottom: 1px solid #3a3a3a;
 }
 
 /* background image */
 #hero-outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
 }
 #background-image {
-    height: 100%;
-    width: 100%; 
-    background: url("../images/img_background.jpeg") no-repeat;
-    background-size: cover;
+  height: 100%;
+  width: 100%;
+  background: url("../images/img_background.jpeg") no-repeat;
+  background-size: cover;
 }
-
 
 /*Sessions go here!!!!*/
 
-#welcome_container{
-    padding-top:60px;
+#welcome_container {
+  padding-top: 60px;
 }
 
-#welcome_heading h2{
-    font-family: Mochiy Pop P One, sans-serif;
-    font-size:150%;
-    background-color:#8c918f;
-    text-align: center;
+#welcome_heading h2 {
+  font-family: Mochiy Pop P One, sans-serif;
+  font-size: 150%;
+  background-color: #8c918f;
+  text-align: center;
 }
 
-#welcome_paragraph{
-    text-align: center;
+#welcome_paragraph {
+  text-align: center;
 }
 
-#session-bar{
-     background-repeat: no-repeat;
-     background-size: cover;
-     background-position: center;
-     width: 100%;
-     overflow: hidden;
-     padding-top:50px;
- }
-
- 
-
+#session-bar {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 50px;
+}
 
 div#container_top_narrower {
-    margin-left: 2.5%; 
+  margin-left: 2.5%;
 }
 
-.container_top{
-    background-color: rgba(0, 0, 0, .6);
-    text-align:center;
-    padding:0px;
-    font-size:130%;
-    border-radius:25px;
-    box-sizing: border-box;
-    width: 30%; /*changing the width to allow for the margin to align correctly */
+.container_top {
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  padding: 0px;
+  font-size: 130%;
+  border-radius: 25px;
+  box-sizing: border-box;
+  width: 30%; /*changing the width to allow for the margin to align correctly */
 }
 
-.container_under{
-    background-color: rgba(0, 0, 0, .6);
-    text-align:center;
-    padding:5px;
-    font-size:120%;
-    border-radius:25px;
-    box-sizing: border-box; /*ADDED*/
-    width: 45%;
+.container_under {
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  padding: 5px;
+  font-size: 120%;
+  border-radius: 25px;
+  box-sizing: border-box; /*ADDED*/
+  width: 45%;
 }
 
-div#bottom_container_narrower{
-    margin-left: 2.5%;
-    box-sizing: border-box;
+div#bottom_container_narrower {
+  margin-left: 2.5%;
+  box-sizing: border-box;
 } /*Added*/
 
-
-
-
-
-
-
-
-
 /*     -- bootstrap navbar --         */
-.navbar-brand{
-    font-family: 'Comforter', cursive;
-    font-size: 350%;
+.navbar-brand {
+  font-family: "Comforter", cursive;
+  font-size: 350%;
 }
 
 .navbar-nav li {
-    font-family: 'Comforter', cursive;
-    font-size: 210%;
+  font-family: "Comforter", cursive;
+  font-size: 210%;
 }
 /* -- END -- */
 
-#exercise_techniques_para{
-    padding-top:20px;
-    padding-right:350px;
-    padding-left:350px;
-
+#exercise_techniques_para {
+  padding-top: 20px;
+  padding-right: 350px;
+  padding-left: 350px;
 }
-
 
 /***** -- What is Meditation section -- *****/
-#meditation-intro-heading h2{
-
-    text-align:center;
-    padding-top:20px;
-    background-color:#8c918f;
-    color:black;
-    font-size:150%;
-
+#meditation-intro-heading h2 {
+  text-align: center;
+  padding-top: 20px;
+  background-color: #8c918f;
+  color: black;
+  font-size: 150%;
 }
 
-#meditate-paragraph{
-    background-color:white;
-    text-align:center;
-    padding-left:110px;
-    padding-right:110px;
-    padding-top:60px;
-    padding-bottom:100px;
-    font-size: 125%; 
-    font-family: Lato, sans-serif;
+#meditate-paragraph {
+  background-color: white;
+  text-align: center;
+  padding-left: 110px;
+  padding-right: 110px;
+  padding-top: 60px;
+  padding-bottom: 100px;
+  font-size: 125%;
+  font-family: Lato, sans-serif;
 }
 
 /***********END OF Meditation Section************/
 
 /***********START of Exercise Section************/
 
-
-
-.exercise1-container{
-    padding-top:30px;
-    display:flex;
-    padding-left:70px;
+.exercise1-container {
+  padding-top: 30px;
+  display: flex;
+  padding-left: 70px;
 }
 
 /*Styles the Meditation Techniques heading*/
-#exercises-heading2{
-    font-size: 125%;
-    text-align: center;
-    padding-left:25px;
-    padding-top:25px;
+#exercises-heading2 {
+  font-size: 125%;
+  text-align: center;
+  padding-left: 25px;
+  padding-top: 25px;
 }
 
 /*Styles each exercise heading*/
-.exercise1-heading{
-    padding-left: 275px;
-    font-size:70%;
+.exercise1-heading {
+  padding-left: 275px;
+  font-size: 70%;
+  padding-top: 30px;
 }
 
-#exercise1-heading h2{
-    font-family: Mochiy Pop P One, sans-serif;
-    
+#exercise1-heading h2 {
+  font-family: Mochiy Pop P One, sans-serif;
 }
 /*
 #exercise1-paragraph{
     background-color:red;
 } */
-.exercise1-para{
-    font-size: 135%;
-    padding-top: 30px;
-    padding-left:90px;
-    padding-right: 70px;
-    font-family: Lato, sans-serif;
+.exercise1-para {
+  font-size: 135%;
+  padding-top: 30px;
+  padding-left: 90px;
+  padding-right: 70px;
+  font-family: Lato, sans-serif;
 }
 
-.image{
-    flex-basis: 150%;
-    padding-left: 210px;
-    border-radius: 50px;
-    max-width: 50%;
-    top:0px;
-    left:190px;
-    bottom: 150px;
-    right:100px;
-    
+.image {
+  flex-basis: 150%;
+  padding-left: 210px;
+  border-radius: 50px;
+  max-width: 50%;
+  top: 0px;
+  left: 190px;
+  bottom: 150px;
+  right: 100px;
 }
 
-
-
-#hr_exercises_top{
-    border: 2px solid black;
+#hr_exercises_top {
+  border: 2px solid black;
 }
-
-
-
 
 /***********END of EXERCISE Section************/
 
-#circle-container{
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-    
+#circle-container {
+  width: 300px;
+  height: 300px;
+  padding: 30px;
+  border-style: solid;
+  border-color: #ccc;
+  border-width: 1px;
+  border-radius: 50%;
+  margin: 0 auto;
 }
 
-
-
-#meditate_hr{
-    border: 1px solid black;
+#meditate_hr {
+  border: 1px solid black;
 }
 
-
-
-#exercise-end-heading-row{
-    border: 2px solid black;
+#exercise-end-heading-row {
+  border: 2px solid black;
 }
 
-
-#contact_us_heading{
-    font-size: 125%;
-    text-align: center;
-    padding-left:25px;
-    padding-top:px;
-    font-family: Mochiy Pop 25P One, sans-serif;
+#contact_us_heading {
+  font-size: 125%;
+  text-align: center;
+  padding-left: 25px;
+  padding-top: px;
+  font-family: Mochiy Pop 25p One, sans-serif;
 }
 
-#contact_us_heading_row_ending{
-    border: 2px solid black;
+#contact_us_heading_row_ending {
+  border: 2px solid black;
 }
 
-footer{
-
-    height:150px;
-    position: relative;
-    bottom:0px;
-    padding-top:20px;
+footer {
+  height: 150px;
+  position: relative;
+  bottom: 0px;
+  padding-top: 20px;
 }
 
-.social-links{
-    text-align:center;
+.social-links {
+  text-align: center;
 }
 
-.social-links > li{
-    display: inline; /*Displays the links to */
+.social-links > li {
+  display: inline; /*Displays the links to */
 }
 
 .social-links i {
-    font-size:160%;
-    margin: 1%;
-    padding: 10%;
-    padding-top:15px;
-    padding-bottom:0px;
-    color: #3a3a3a;
+  font-size: 160%;
+  margin: 1%;
+  padding: 10%;
+  padding-top: 15px;
+  padding-bottom: 0px;
+  color: #3a3a3a;
 }
 
-#iframe-maps{
-    padding-left:1065px;
+#iframe-maps {
+  padding-left: 1065px;
 }
-
 
 /* ///////////////////// CONTACT US ///////////////////// */
 /*
@@ -332,53 +300,49 @@ footer{
 }
  */
 
- @media screen and (max-width:750px){
-    #background-image{
-         width:100%;
-         height:300px
+@media screen and (max-width: 750px) {
+  #background-image {
+    width: 100%;
+    height: 300px;
+  }
 
-     }
+  #session-bar {
+    width: 600px;
+    margin: 0;
+    float: none;
+  }
 
+  .container_top {
+    width: 600px;
+    clear: both;
+  }
 
-     #session-bar{
-      width: 600px;  
-      margin: 0; 
-      float: none;
-     }
+  .container_under {
+    width: 600px;
+    clear: both;
+  }
 
-     .container_top{
-         width:600px;
-        clear: both;
-     }
-
-     .container_under{
-         width: 600px;
-         clear: both;
-     }
-
-     #hero-outer{
-         /*Remove the white space by bringing up the height on the hero-outer*/
-     }
-/*
+  #hero-outer {
+    /*Remove the white space by bringing up the height on the hero-outer*/
+  }
+  /*
      #container_top_narrower{
          display:none;
          visibility: hidden;
      }
-  */   
-     #bottom_container_narrower{
-         display: none;
-         visibility: hidden;
-     }
+  */
+  #bottom_container_narrower {
+    display: none;
+    visibility: hidden;
+  }
 
-     .image{
+  .image {
+    width: 10%;
+    height: auto;
+  }
+}
 
-        width: 10%;
-        height: auto;
-     }
-
- }
-
-      /*
+/*
       https://stackoverflow.com/questions/27853884/media-queries-and-image-swapping
       stackoverflow article on @media for image images
-      */ 
+      */
