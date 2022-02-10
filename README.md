@@ -64,7 +64,7 @@ $ npm start
 ```
 
 ## Testing
-* For the testing portion of this project, I used 
+* For the testing portion of this project, I used three different testing tools to test for vulnerabilities. Below I have sh 
 
 ## Deployment
 * Visit my Github Repository (ADD Link to repo)
