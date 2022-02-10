@@ -26,12 +26,22 @@ Futures works will include:
 ## Design Brief
 The main aim of Meditate is create a webpage that will (encourage[change word]) users to be more concious of they're mental health in the form of Meditation/Mindfulness. Another aim of the site is to provide simplistic, quick exercises for users to preform at home. For the basic design principle of the site was to keep it simplistic, easy to read information. The flow of the web site follows that trend of simplicity and calmness with it's colours and fonts. Below I have included my reasoning for choosing my font and colours for the project. 
 
+Images: 
+All images that I used in the development of this project are from [Getty Images](https://www.gettyimages.ie/). This project is based off of the design of both wireframe 2 and wireframe 3. See
+
+
 Colours:
-The justification for choosing the colours below are inline with the overall design flow. I chose to stick to Blue / off Blue colours as these colors having a calming, and are proven to decrease the heart rate, lower blood pressure and reduce anxiety levels. I have included the colours below along with they're corresponding hex values.
+The justification for my choice the colours below are inline with the overall design flow. I chose to stick to Blue / off Blue colours as these colors having a calming, and are proven to decrease the heart rate, lower blood pressure and reduce anxiety levels. I have included the colours below along with they're corresponding hex values.
 
 --ADD COLOURS--
-Font:
 
+Wireframe Diagrams:
+Before beginning the project I created 3 wireframe diagrams using the wireframe software Balsamiq
+
+Font:
+The fonts that I chose are from the Google Fonts library. I chose to use Google Fonts as there is a better selection of fonts/ font styles compared to other libraries. Below I have included the fonts that were used in the project
+
+--ADD FONTS-- and justification for fonts
 	
 ## Technologies
 * HTML
