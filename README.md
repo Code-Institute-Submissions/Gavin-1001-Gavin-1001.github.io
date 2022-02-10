@@ -39,7 +39,9 @@ The justification for my choice the colours below are inline with the overall de
 --ADD COLOURS--
 
 Wireframe Diagrams:
-Before beginning the project I created 3 wireframe diagrams using the wireframe software Balsamiq
+Before beginning the project I created 3 wireframe diagrams using the wireframe software Balsamiq. Below are links to all wireframe diagrams that. 
+* Desktop (Insert link here)
+* Mobile (Insert link here)
 
 Font:
 The fonts that I chose are from the Google Fonts library. I chose to use Google Fonts as there is a better selection of fonts/ font styles compared to other libraries. Below I have included the fonts that were used in the project
@@ -62,9 +64,27 @@ $ npm start
 ```
 
 ## Testing
+* For the testing portion of this project, I used 
 
 ## Deployment
 * Visit my Github Repository (ADD Link to repo)
 * On the repository ribbon navigate to the "settings" tab.
 * On the left of the screen, navigate to the "Code and automation" section.
 * In the "Code and automation" section, click on the "Pages" button.
+*
+
+## Cloning the Repository
+* Navigate to the main page of the repository (link)
+* Above the file display/structure of the repository on the top right, click the green "Code" dropdown.
+* To clone using HTTPS, copy the link using the clipboard icon. 
+* Open a terminal/command prompt window.
+* Create a directory to the location where you want to store the cloned repository. 
+* In the terminal type git clone https://github.com/Gavin-1001/Gavin-1001.github.io.git, and press enter.
+* (ADD IMAGE OF CLONING DROPDOWN)
+*
+
+## Contributing to the Repository 
+* You are more than welcome to contributing to the repository, I look forward to seeing your work!
+* To contribute to the project, navigate to the main page of the repository.
+* In the top right hand corner of the webpage click the "Fork" button.
+* You can now freely contribute to the project.
