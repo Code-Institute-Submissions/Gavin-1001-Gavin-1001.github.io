@@ -36,7 +36,9 @@ All images that I used in the development of this project are from [Getty Images
 Colours:
 The justification for my choice the colours below are inline with the overall design flow. I chose to stick to Blue / off Blue colours as these colors having a calming, and are proven to decrease the heart rate, lower blood pressure and reduce anxiety levels. I have included the colours below along with they're corresponding hex values.
 
---ADD COLOURS--
+Background colour - #e9fcff;
+Background colour of calender - #8c918f
+
 
 Wireframe Diagrams:
 Before beginning the project I created 3 wireframe diagrams using the wireframe software Balsamiq. Below are links to all wireframe diagrams that. 
