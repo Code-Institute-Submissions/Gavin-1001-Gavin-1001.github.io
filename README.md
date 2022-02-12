@@ -6,7 +6,7 @@
 	* [Images](#images)
 	* [Colours](#colours)
 	* [Wireframe Diagrams](#wireframes-diagrams)
-	* [Fonts](#fonts)
+	* [Fonts](#font)
 * [Technologies](#technologies)
 * [Testing](#testing)
 * [Deployment](#deployment)
@@ -35,18 +35,20 @@ All images that I used in the development of this project are from [Getty Images
 
 Colours:
 The justification for my choice the colours below are inline with the overall design flow. I chose to stick to Blue / off Blue colours as these colors having a calming, and are proven to decrease the heart rate, lower blood pressure and reduce anxiety levels. I have included the colours below along with they're corresponding hex values.
+* Background colour - #e9fcff
+* Background colour of calender - #8c918f
 
---ADD COLOURS--
 
 Wireframe Diagrams:
 Before beginning the project I created 3 wireframe diagrams using the wireframe software Balsamiq. Below are links to all wireframe diagrams that. 
 * Desktop (Insert link here)
 * Mobile (Insert link here)
 
-Font:
+Fonts:
 The fonts that I chose are from the Google Fonts library. I chose to use Google Fonts as there is a better selection of fonts/ font styles compared to other libraries. Below I have included the fonts that were used in the project
 
---ADD FONTS-- and justification for fonts
+* All heading tags - Mochiy Pop P One, sans-serif.
+* All p tags - Quicksand, sans-serif.
 
 	
 ## Technologies
@@ -64,7 +66,7 @@ $ npm start
 ```
 
 ## Testing
-* For the testing portion of this project, I used 
+* For the testing portion of this project, I used three different testing tools to test for vulnerabilities. Below I have sh 
 
 ## Deployment
 * Visit my Github Repository (ADD Link to repo)
