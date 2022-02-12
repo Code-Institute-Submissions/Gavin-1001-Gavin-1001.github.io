@@ -6,7 +6,7 @@
 	* [Images](#images)
 	* [Colours](#colours)
 	* [Wireframe Diagrams](#wireframes-diagrams)
-	* [Fonts](#fonts)
+	* [Fonts](#font)
 * [Technologies](#technologies)
 * [Testing](#testing)
 * [Deployment](#deployment)
@@ -35,9 +35,8 @@ All images that I used in the development of this project are from [Getty Images
 
 Colours:
 The justification for my choice the colours below are inline with the overall design flow. I chose to stick to Blue / off Blue colours as these colors having a calming, and are proven to decrease the heart rate, lower blood pressure and reduce anxiety levels. I have included the colours below along with they're corresponding hex values.
-
-Background colour - #e9fcff;
-Background colour of calender - #8c918f
+* Background colour - #e9fcff
+* Background colour of calender - #8c918f
 
 
 Wireframe Diagrams:
@@ -45,10 +44,11 @@ Before beginning the project I created 3 wireframe diagrams using the wireframe 
 * Desktop (Insert link here)
 * Mobile (Insert link here)
 
-Font:
+Fonts:
 The fonts that I chose are from the Google Fonts library. I chose to use Google Fonts as there is a better selection of fonts/ font styles compared to other libraries. Below I have included the fonts that were used in the project
 
---ADD FONTS-- and justification for fonts
+* All heading tags - Mochiy Pop P One, sans-serif.
+* All p tags - Quicksand, sans-serif.
 
 	
 ## Technologies
