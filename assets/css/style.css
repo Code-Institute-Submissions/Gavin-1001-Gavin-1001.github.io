@@ -21,7 +21,7 @@ body {
 
 h1,
 h2 {
-  font-family: Mochiy Pop P One, sans-serif;
+  font-family: "Mochiy Pop P One", sans-serif;
   text-transform: uppercase;
   letter-spacing: 4px;
   color: #252525;
@@ -91,7 +91,7 @@ h2 {
 }
 
 #welcome_heading h2 {
-  font-family: Mochiy Pop P One, sans-serif;
+  font-family: "Mochiy Pop P One", sans-serif;
   font-size: 150%;
   text-align: center;
 }
@@ -99,6 +99,8 @@ h2 {
 #welcome_paragraph {
   text-align: center;
   padding-top:20px;
+  padding-right: 30px;
+  padding-left: 30px;
 
 }
 
@@ -119,7 +121,7 @@ h2 {
 
 #meditation-intro-heading h2 {
   text-align: center;
-  font-family: Mochiy Pop P One, sans-serif;
+  font-family: "Mochiy Pop P One", sans-serif;
   padding-top: 20px;
   background-color: #e9fcff;
   color: black;
@@ -137,7 +139,7 @@ h2 {
   padding-top: 20px;
   background-color: #e9fcff;
   color: black;
-  font-family: Mochiy Pop P One, sans-serif;
+  font-family: "Mochiy Pop P One", sans-serif;
 }
 
 #session-bar {
@@ -168,7 +170,7 @@ div#container_top_narrower {
 }
 
 .container_top h2{
-  font-family: Mochiy Pop P One, sans-serif;
+  font-family: "Mochiy Pop P One", sans-serif;
 }
 
 .container_under {
@@ -184,7 +186,7 @@ div#container_top_narrower {
 }
 
 .container_under h2{
-    font-family:Mochiy Pop P One, sans-serif;
+    font-family: "Mochiy Pop P One", sans-serif;
 }
 
 div#bottom_container_narrower {
@@ -263,7 +265,7 @@ div#bottom_container_narrower {
 }
 
 #exercise1-heading h2 {
-  font-family: Mochiy Pop P One, sans-serif;
+  font-family: "Mochiy Pop P One", sans-serif;
 }
 /*
 #exercise1-paragraph{
@@ -318,7 +320,7 @@ div#bottom_container_narrower {
   text-align: center;
   padding-left: 25px;
   padding-top: 20px;
-  font-family: Mochiy Pop P One, sans-serif;
+  font-family: "Mochiy Pop P One", sans-serif;
 }
 
 #contact_us_heading_row_ending {
