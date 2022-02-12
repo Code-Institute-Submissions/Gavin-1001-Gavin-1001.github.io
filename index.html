@@ -1,5 +1,5 @@
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,7 @@
     <title>Meditate</title>
 </head>
 
-<body>
+<body id="body">
     <main>
         <header>
             <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
@@ -44,7 +44,7 @@
         <section id="hero-outer">
             <div id="background-image"></div> <!-- This div is for the background image-->
 
-            </div>
+  
         </section>
 
         <section id="welcome">
@@ -53,9 +53,7 @@
                     <h2>Welcome</h2>
                 </div>
                 <div id="welcome_paragraph">
-                    <p>
-                        Welcome to this section
-                    </p>
+                        Welcome to Meditate, where you can find some information based on meditation and some exercises. Check the calender below and join us in person!
                 </div>
             </div>
         </section>
@@ -73,7 +71,6 @@
                         Meditation is also a consciousness technique that has been shown to have a wide number of
                         benefits on psychological well-being.
                     </p>
-                    <br>
                     <div id="types_of_meditation">
                         <div id="types_of_meditation_heading">
                             <h3>The Basics of Meditation</h3>
@@ -111,8 +108,6 @@
 
                             </li>
                         </ul>
-
-                        </p>
                     </div>
                 </div>
             </div>
@@ -143,7 +138,6 @@
                 <h3>11:00 AM</h3>
                 <h3>Navan Rugby Club</h3>
             </div>
-            </div>
             <div id="bottom_container_narrower"></div>
             <div class="container_under">
                 <h2>Thursday</h2>
@@ -162,7 +156,7 @@
         <br>
         <br>
         <br>
-        <hr id="hr_exercises_top">
+      <!--  <hr id="hr_exercises_top"> -->
         <section id="meditate-exercises-at-home">
             <div id="exercises-container">
                 <div id="exercises-heading2">
@@ -215,15 +209,14 @@
                 <!-- START OF EXERCISE 2 -->
                 <br>
                 <br>
-                <div id="exercise1">
+                <div class="exercise1">
                     <div class="exercise1-heading">
                         <h2>#2 Activity Based Meditation</h2>
                     </div>
                     <div class="exercise1-container">
                         <br>
                         <div class="image">
-                            <img src="assets/images/exercise_images/img_2.jpeg" alt="Man walking on country track"
-                                height="90%" width="100%">
+                            <img src="assets/images/exercise_images/img_2.jpeg" alt="Man walking on country track" height="90%" width="100%">
                         </div>
                         <br>
                         <br>
@@ -254,7 +247,7 @@
                 <!-- START OF EXERCISE 3 -->
                 <br>
                 <br>
-                <div id="exercise1">
+                <div class="exercise1">
                     <div class="exercise1-heading">
                         <h2>#3 Mindfulness Meditation</h2>
                     </div>
@@ -291,7 +284,7 @@
                 <!-- START OF EXERCISE 4 -->
                 <br>
                 <br>
-                <div id="exercise1">
+                <div class="exercise1">
                     <div class="exercise1-heading">
                         <h2>#4 Spiritual Meditation</h2>
                     </div>
@@ -330,7 +323,7 @@
                 <!-- START OF EXERCISE 5 -->
                 <br>
                 <br>
-                <div id="exercise1">
+                <div class="exercise1">
                     <div class="exercise1-heading">
                         <h2>#5 Breathing Meditation</h2>
                     </div>
@@ -358,14 +351,15 @@
                 <!-- END OF EXERCISE 5-->
             </div>
         </section>
-
+        <!--
         <hr id="exercise-end-heading-row">
-
+        -->
         <!-- END OF EXERCISE SECTION-->
 
         <!-- Form Section -->
 
         <!-- Wrapper container -->
+        <section id="contact-us-form">
         <div class="container py-4">
 
 
@@ -387,7 +381,7 @@
                 <!-- Message input -->
                 <div class="mb-3">
                     <label class="form-label" for="message">Message</label>
-                    <textarea class="form-control" id="message" type="text"
+                    <textarea class="form-control" id="message"
                         placeholder="Leave a message and we will get back as soon as possible"
                         style="height: 10rem;"></textarea>
                 </div>
@@ -406,9 +400,9 @@
 
 
         <!-- START OF FOOTER-->
-
+        <!--
         <hr id="contact_us_heading_row_ending">
-
+        -->
         <footer>
             <ul class="social-links">
                 <li>
@@ -432,7 +426,7 @@
                 <li>
                     <a href="https://github.com/Gavin-1001" target="_blank" rel="noopener"
                         aria-label="Visit my Github Page! (Opens in a new tab)">
-                        <i class="fab fa-github"></i></i></a>
+                        <i class="fab fa-github"></i></a>
                 </li>
             </ul>
             <!--Add a google maps hyperlink to the address. Makes it less messy than using an iframe-->

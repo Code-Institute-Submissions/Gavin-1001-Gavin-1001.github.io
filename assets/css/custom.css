@@ -48,7 +48,21 @@
 
 } 
 
+
+#contact-us-form{
+    background-color: #e9fcff;
+    padding-top: 50px;
+}
+
 #contactForm h2{
     text-align: center;
+}
+.navbar-brand{
+    font-size: 250%;
+    padding-left: 1%;
+}
+
+.nav-link{
+    font-size: 80%;
 }
 

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&family=Mochiy+Pop+P+One&family=Neonderthaw&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Quicksand&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -6,10 +6,15 @@
 }
 
 body {
-  font-family: Lato, sans-serif;
+  font-family: Quicksand, sans-serif;
   font-weight: 300;
   color: #3a3a3a;
   /*background-color:#ABBAE3;  USE THIS BACKGROUND COLOR*/
+  
+}
+
+#body{
+   /* background-color: #e9fcff; */
 }
 
 /* headings and logo */
@@ -28,7 +33,7 @@ h2 {
   margin-left: 30px; /*Stops the logo hugging the left hand side of the page*/
 }
 
-/* navigation links */
+/* navigation links */v
 
 #menu {
   font-size: 110%;
@@ -77,6 +82,9 @@ h2 {
 }
 
 /*Sessions go here!!!!*/
+#welcome{
+    background-color: #e9fcff;
+}
 
 #welcome_container {
   padding-top: 60px;
@@ -85,16 +93,56 @@ h2 {
 #welcome_heading h2 {
   font-family: Mochiy Pop P One, sans-serif;
   font-size: 150%;
-  background-color: #8c918f;
   text-align: center;
 }
 
 #welcome_paragraph {
   text-align: center;
+  padding-top:20px;
+
+}
+
+#meditate-section{
+    background-color: #e9fcff;
+    /**/padding-top:25px;
+}
+
+/*
+#types_of_meditation_heading{
+  text-align: center;
+  padding-top: 20px;
+  background-color: #e9fcff;
+  color: black;
+  font-size: 150%;
+}
+*/
+
+#meditation-intro-heading h2 {
+  text-align: center;
+  font-family: Mochiy Pop P One, sans-serif;
+  padding-top: 20px;
+  background-color: #e9fcff;
+  color: black;
+  font-size: 150%;
+  
+}
+
+#types_of_meditation{
+    font-family: Quicksand, sans-serif;
+}
+
+
+#types_of_meditation_heading h3 {
+  text-align: center;
+  padding-top: 20px;
+  background-color: #e9fcff;
+  color: black;
+  font-family: Mochiy Pop P One, sans-serif;
 }
 
 #session-bar {
   background-repeat: no-repeat;
+ /* background-color: #e9fcff; */
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -104,6 +152,7 @@ h2 {
 
 div#container_top_narrower {
   margin-left: 2.5%;
+  /*background-color: #e9fcff; */
 }
 
 .container_top {
@@ -111,9 +160,15 @@ div#container_top_narrower {
   text-align: center;
   padding: 0px;
   font-size: 130%;
-  border-radius: 25px;
+  border-radius: 15px;
+  /*border-color: #e9fcff; THIS IS THE COLOUR*/ 
   box-sizing: border-box;
   width: 30%; /*changing the width to allow for the margin to align correctly */
+  font-family: Quicksand, sans-serif;
+}
+
+.container_top h2{
+  font-family: Mochiy Pop P One, sans-serif;
 }
 
 .container_under {
@@ -124,21 +179,28 @@ div#container_top_narrower {
   border-radius: 25px;
   box-sizing: border-box; /*ADDED*/
   width: 45%;
+  font-family: Quicksand, sans-serif;
+  padding-bottom: 20px;
+}
+
+.container_under h2{
+    font-family:Mochiy Pop P One, sans-serif;
 }
 
 div#bottom_container_narrower {
   margin-left: 2.5%;
   box-sizing: border-box;
+ /* background-color: #e9fcff; */
 } /*Added*/
 
 /*     -- bootstrap navbar --         */
 .navbar-brand {
-  font-family: "Comforter", cursive;
+  font-family: "Mochiy Pop P One", cursive;
   font-size: 350%;
 }
 
 .navbar-nav li {
-  font-family: "Comforter", cursive;
+  font-family: "Mochiy Pop P One", cursive;
   font-size: 210%;
 }
 /* -- END -- */
@@ -150,23 +212,29 @@ div#bottom_container_narrower {
 }
 
 /***** -- What is Meditation section -- *****/
-#meditation-intro-heading h2 {
-  text-align: center;
-  padding-top: 20px;
-  background-color: #8c918f;
-  color: black;
-  font-size: 150%;
+
+
+#meditate-intro-heading{
+    background-color: #e9fcff;
 }
 
-#meditate-paragraph {
-  background-color: white;
+#meditate-exercises-at-home{
+    /*background-color: #e9fcff;*/
+    background-color:#e9fcff;
+    padding-top: 0px;
+}
+
+
+#meditate-paragraph{
+  /*background-color: white; */
+  background-color: #e9fcff; 
   text-align: center;
   padding-left: 110px;
   padding-right: 110px;
-  padding-top: 60px;
+  padding-top: 20px;
   padding-bottom: 100px;
   font-size: 125%;
-  font-family: Lato, sans-serif;
+  font-family: Quicksand, sans-serif;
 }
 
 /***********END OF Meditation Section************/
@@ -206,7 +274,7 @@ div#bottom_container_narrower {
   padding-top: 30px;
   padding-left: 90px;
   padding-right: 70px;
-  font-family: Lato, sans-serif;
+  font-family: Quicksand, sans-serif;
 }
 
 .image {
@@ -249,8 +317,8 @@ div#bottom_container_narrower {
   font-size: 125%;
   text-align: center;
   padding-left: 25px;
-  padding-top: px;
-  font-family: Mochiy Pop 25p One, sans-serif;
+  padding-top: 20px;
+  font-family: Mochiy Pop P One, sans-serif;
 }
 
 #contact_us_heading_row_ending {
@@ -262,6 +330,7 @@ footer {
   position: relative;
   bottom: 0px;
   padding-top: 20px;
+  background-color: #e9fcff;
 }
 
 .social-links {
@@ -341,6 +410,7 @@ footer {
     height: auto;
   }
 }
+
 
 /*
       https://stackoverflow.com/questions/27853884/media-queries-and-image-swapping
