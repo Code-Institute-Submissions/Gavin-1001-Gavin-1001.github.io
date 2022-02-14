@@ -3,14 +3,13 @@
 * [General Introduction](#general-introduction)
 * [User Experience](#user-experience)
 * [Design Brief](#design-brief)
-	* [Images](#images)
-	* [Colours](#colours)
+	* [Images](#Images)
+	* [Colours](#Colours)
 	* [Wireframe Diagrams](#wireframes-diagrams)
 	* [Fonts](#font)
 * [Technologies](#technologies)
 * [Testing](#testing)
 * [Deployment](#deployment)
-* 
 
 ## General Introduction
 With the current situtation with people working from home, many are unable to detatch from work stresses and their mental health takes affect. The idea behind this webpage? is to bring awareness about meditation for FINSIH
@@ -30,7 +29,7 @@ Futures works will include:
 The main aim of Meditate is create a webpage that will (encourage[change word]) users to be more concious of they're mental health in the form of Meditation/Mindfulness. Another aim of the site is to provide simplistic, quick exercises for users to preform at home. For the basic design principle of the site was to keep it simplistic, easy to read information. The flow of the web site follows that trend of simplicity and calmness with it's colours and fonts. Below I have included my reasoning for choosing my font and colours for the project. 
 
 Images: 
-All images that I used in the development of this project are from [Getty Images](https://www.gettyimages.ie/). This project is based off of the design of both wireframe 2 and wireframe 3. See
+* All images that I used in the development of this project are from [Getty Images](https://www.gettyimages.ie/). This project is based off of the design of both wireframe 2 and wireframe 3. See
 
 
 Colours:
@@ -55,7 +54,7 @@ The fonts that I chose are from the Google Fonts library. I chose to use Google 
 * HTML
 * CSS
 * Bootstrap
-	
+<!--	
 ## Setup
 To run this project, install it locally using npm:
 
@@ -64,26 +63,26 @@ $ cd ../lorem
 $ npm install
 $ npm start
 ```
+Save for future documentation
+-->
 
 ## Testing
-* For the testing portion of this project, I used three different testing tools to test for vulnerabilities. Below I have sh 
+* For the testing portion of this project, I used W3C HTML Validation Service to validate my HTML, and again I used W3C CSS Validation to validate my CSS. Below I have linked the screenshots of my error free [HTML](Gavin-1001.github.io/assets/images/test_screenshots/HTML_Validation) and [CSS](Gavin-1001.github.io/assets/images/test_screenshots/CSS_Validation). 
 
 ## Deployment
-* Visit my Github Repository (ADD Link to repo)
+* Visit my Github Repository.
 * On the repository ribbon navigate to the "settings" tab.
 * On the left of the screen, navigate to the "Code and automation" section.
 * In the "Code and automation" section, click on the "Pages" button.
-*
 
 ## Cloning the Repository
-* Navigate to the main page of the repository [here](https://github.com/Gavin-1001/Gavin-1001.github.io)
+* Navigate to the main page of the repository 
 * Above the file display/structure of the repository on the top right, click the green "Code" dropdown.
-* To clone using HTTPS, copy the link using the clipboard icon. 
+* To clone using HTTPS, copy the link using the clipboard icon. View [image](https://github.com/Gavin-1001/Gavin-1001.github.io/blob/main/assets/images/github_images/cloning-repo.PNG)
 * Open a terminal/command prompt window.
-* Create a directory to the location where you want to store the cloned repository. 
+* Create a folder to the location where you want to store the cloned repository. 
 * In the terminal type git clone https://github.com/Gavin-1001/Gavin-1001.github.io.git, and press enter.
-* (ADD IMAGE OF CLONING DROPDOWN)
-*
+* Open the folder in your favourite IDE, and the code should be displayed. 
 
 ## Contributing to the Repository 
 * You are more than welcome to contributing to the repository, I look forward to seeing your work!
