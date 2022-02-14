@@ -1,4 +1,6 @@
 # Code-Institute
+# HTML/CSS Essentials Portfolio 1
+
 ## Table of contents
 * [General Introduction](#general-introduction)
 * [User Experience](#user-experience)
@@ -20,7 +22,7 @@ The target audience of this project is anyone who has an interest in Meditation 
 
 The target audience of Meditate of this project is anyone who has an interest in Meditation. The aim of Meditate is to bring interest to those who don't know a lot about meditation. For those who already have a good understanding of how we are affecting our oceans they should still be able to learn a little and understand what we are aiming to achieve with spreading knowledge.
 
-Future Works
+### Future Works
 Futures works will include:
 * Implementing a backend.
 * Implement a feedback fourm for users.
@@ -65,6 +67,14 @@ $ cd folder
 $ git clone https://github.com/Gavin-1001/Gavin-1001.github.io.git
 ```
 -->
+
+## Issues/Bugs
+There are two issues in this project:
+
+* When the background color was applied to the calender section, it shows the outline of the divs that hold the divs of the days of the week. Unfortunately I have be unable to fix this issue, so far, but plan on adding bootstrap to the calender to correct this background color issue. 
+
+* Another issue that I encountered was with the images when reducing the sizes to make it compatible on mobile devices. In the near future I plan on moving the images above or below the exercise block of text. 
+
 ## Testing
 * For the testing portion of this project, I used W3C HTML Validation Service to validate my HTML, and again I used W3C CSS Validation to validate my CSS. Below I have linked the screenshots of my error free [HTML](https://github.com/Gavin-1001/Gavin-1001.github.io/blob/main/assets/images/test_screenshots/HTML_Validation.png) and [CSS](https://github.com/Gavin-1001/Gavin-1001.github.io/blob/main/assets/images/test_screenshots/CSS_Validation.png). 
 
