@@ -10,6 +10,7 @@
 * [Technologies](#technologies)
 * [Testing](#testing)
 * [Deployment](#deployment)
+* [References](#references)
 
 ## General Introduction
 With the current situtation with people working from home, many are unable to detatch from work stresses and their mental health takes affect. The idea behind this webpage? is to bring awareness about meditation for FINSIH
@@ -53,7 +54,7 @@ The fonts that I chose are from the Google Fonts library. I chose to use Google 
 ## Technologies
 * HTML
 * CSS
-* Bootstrap
+* Bootstrap 5
 <!--	
 ## Setup
 To run this project, install it locally using npm:
@@ -92,3 +93,8 @@ $ git clone https://github.com/Gavin-1001/Gavin-1001.github.io.git
 * To contribute to the project, navigate to the main page of the repository.
 * In the top right hand corner of the webpage click the "Fork" button.
 * You can now freely contribute to the project.
+
+## References
+* Getty Images
+* https://www.verywellmind.com/learn-how-to-meditate-3144793 
+* https://www.mindful.org/how-to-meditate/
