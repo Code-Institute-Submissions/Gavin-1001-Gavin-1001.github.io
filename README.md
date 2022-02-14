@@ -67,7 +67,7 @@ Save for future documentation
 -->
 
 ## Testing
-* For the testing portion of this project, I used W3C HTML Validation Service to validate my HTML, and again I used W3C CSS Validation to validate my CSS. Below I have linked the screenshots of my error free [HTML](Gavin-1001.github.io/assets/images/test_screenshots/HTML_Validation) and [CSS](Gavin-1001.github.io/assets/images/test_screenshots/CSS_Validation). 
+* For the testing portion of this project, I used W3C HTML Validation Service to validate my HTML, and again I used W3C CSS Validation to validate my CSS. Below I have linked the screenshots of my error free [HTML](https://github.com/Gavin-1001/Gavin-1001.github.io/blob/main/assets/images/test_screenshots/HTML_Validation.png) and [CSS](https://github.com/Gavin-1001/Gavin-1001.github.io/blob/main/assets/images/test_screenshots/CSS_Validation.png). 
 
 ## Deployment
 * Visit my Github Repository.
