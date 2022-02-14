@@ -19,8 +19,8 @@ body {
 
 /* headings and logo */
 
-h1,
-h2 {
+h1
+ {
   font-family: "Mochiy Pop P One", sans-serif;
   letter-spacing: 4px;
   color: #252525;
@@ -91,7 +91,7 @@ h2 {
 
 #welcome_heading h2 {
   font-family: "Mochiy Pop P One", sans-serif;
-  font-size: 150%;
+  font-size: 155%;
   text-align: center;
 }
 
@@ -100,6 +100,8 @@ h2 {
   padding-top:20px;
   padding-right: 30px;
   padding-left: 30px;
+  font-size: 125%;
+  font-family: Quicksand, sans-serif;
 
 }
 
@@ -117,14 +119,12 @@ h2 {
   font-size: 150%;
 }
 */
-
-#meditation-intro-heading{
+#meditation-intro-heading h2{
   text-align: center;
   font-family: "Mochiy Pop P One", sans-serif;
   padding-top: 20px;
   background-color: #e9fcff;
   font-size: 110%;
-  
 }
 
 #types_of_meditation{
@@ -132,12 +132,12 @@ h2 {
 }
 
 
-#types_of_meditation_heading h3 {
+#types_of_meditation_heading h2{
   text-align: center;
+  font-family: "Mochiy Pop P One", sans-serif;
   padding-top: 20px;
   background-color: #e9fcff;
-  
-  font-family: "Mochiy Pop P One", sans-serif;
+  font-size: 110%;
 }
 
 #session-bar {
