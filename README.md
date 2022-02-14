@@ -55,7 +55,7 @@ The fonts that I chose are from the Google Fonts library. I chose to use Google 
 * HTML
 * CSS
 * Bootstrap
-	
+<!--	
 ## Setup
 To run this project, install it locally using npm:
 
@@ -64,6 +64,8 @@ $ cd ../lorem
 $ npm install
 $ npm start
 ```
+Save for future documentation
+-->
 
 ## Testing
 * For the testing portion of this project, I used W3C HTML Validation Service to validate my HTML, and again I used W3C CSS Validation to validate my CSS. Below I have linked the screenshots of my error free [HTML](Gavin-1001.github.io/assets/images/test_screenshots/HTML_Validation) and [CSS](Gavin-1001.github.io/assets/images/test_screenshots/CSS_Validation). 
