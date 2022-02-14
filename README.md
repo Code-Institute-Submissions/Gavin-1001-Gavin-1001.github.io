@@ -16,7 +16,7 @@
 * [References](#references)
 
 ## General Introduction
-With the current situtation with people working from home, many are unable to detatch from work stresses and their mental health takes affect. The idea behind this webpage? is to bring awareness about meditation for FINSIH
+With the current situtation with people working from home, many are unable to detatch from work stresses and their mental health takes affect. The idea behind this application is to bring awareness to the benefits of meditation, and provide the user with some beginner exercises to to introduce them to meditation. There is also a calender for the user to come join in person for a group meditation class. 
 
 ## User Experience
 The target audience of this project is anyone who has an interest in Meditation or is looking to give Meditation a try. 
