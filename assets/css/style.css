@@ -22,7 +22,6 @@ body {
 h1,
 h2 {
   font-family: "Mochiy Pop P One", sans-serif;
-  text-transform: uppercase;
   letter-spacing: 4px;
   color: #252525;
 }
@@ -119,13 +118,12 @@ h2 {
 }
 */
 
-#meditation-intro-heading h2 {
+#meditation-intro-heading{
   text-align: center;
   font-family: "Mochiy Pop P One", sans-serif;
   padding-top: 20px;
   background-color: #e9fcff;
-  color: black;
-  font-size: 150%;
+  font-size: 110%;
   
 }
 
@@ -138,7 +136,7 @@ h2 {
   text-align: center;
   padding-top: 20px;
   background-color: #e9fcff;
-  color: black;
+  
   font-family: "Mochiy Pop P One", sans-serif;
 }
 
@@ -226,9 +224,15 @@ div#bottom_container_narrower {
     padding-top: 0px;
 }
 
+#calender{
+  text-align: center;
+  padding-top: 20px;
+  font-family: "Mochiy Pop P One", sans-serif;
+  font-size:210%;
+}
 
 #meditate-paragraph{
-  /*background-color: white; */
+  /*background-color: #F4FCFF;       BACK-UP COLOUR    */
   background-color: #e9fcff; 
   text-align: center;
   padding-left: 110px;
