@@ -1,4 +1,4 @@
-/*File contains overrided Bootstrap styles*/
+/*File contains Bootstrap styles that have been overridden*/
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Quicksand&display=swap');
 .btn {
     padding: 14px 24px;
@@ -28,19 +28,6 @@
     margin-left:30px;
 }
 
-
-/* Came from Style.css
-#contact_us_container{
-    background-color:grey;
-}
-#emailHelp
-{
-    padding-right: 100px;
-}
-.col-md-12{
-    background-color:green;
-}
-*/
 #session-bar div {
     color: #fafafa;
     /*background-color: rgba(0, 0, 0, .6); */
