@@ -26,7 +26,7 @@ Futures works will include:
 * Implement a site map for ease of use.
 
 ## Design Brief
-The main aim of Meditate is create a webpage that will (encourage[change word]) users to be more concious of they're mental health in the form of Meditation/Mindfulness. Another aim of the site is to provide simplistic, quick exercises for users to preform at home. For the basic design principle of the site was to keep it simplistic, easy to read information. The flow of the web site follows that trend of simplicity and calmness with it's colours and fonts. Below I have included my reasoning for choosing my font and colours for the project. 
+The main aim of Meditate is create a webpage that will encourage users to be more concious of their mental health in the form of Meditation/Mindfulness. Another aim of the site is to provide simplistic, quick exercises for users to preform at home. For the basic design principle of the site was to keep it simplistic, easy to read information. The flow of the web site follows that trend of simplicity and calmness with it's colours and fonts. Below I have included my reasoning for choosing my font and colours for the project. 
 
 Images: 
 * All [images](https://github.com/Gavin-1001/Gavin-1001.github.io/tree/main/assets/images/wireframes) that I used in the development of this project are from [Getty Images](https://www.gettyimages.ie/). This project is based off of the design of both wireframe 2 and wireframe 3. 
@@ -39,9 +39,9 @@ The justification for my choice the colours below are inline with the overall de
 
 
 Wireframe Diagrams:
-Before beginning the project I created 3 wireframe diagrams using the wireframe software Balsamiq. Below are links to all wireframe diagrams that. 
-* Desktop (Insert link here)
-* Mobile (Insert link here)
+Before beginning the project I created 3 wireframe diagrams using the wireframe software Balsamiq. Below are links to the wireframe diagrams that the were used in development.  
+* [Desktop](https://github.com/Gavin-1001/Gavin-1001.github.io/blob/main/assets/images/wireframes/wireframe_3.bmpr)
+* [Mobile](https://github.com/Gavin-1001/Gavin-1001.github.io/blob/main/assets/images/wireframes/wireframe3_mobile.bmpr)
 
 Fonts:
 The fonts that I chose are from the Google Fonts library. I chose to use Google Fonts as there is a better selection of fonts/ font styles compared to other libraries. Below I have included the fonts that were used in the project.
@@ -76,10 +76,9 @@ $ git clone https://github.com/Gavin-1001/Gavin-1001.github.io.git
 ## Cloning the Repository
 * Navigate to the main page of the repository. 
 * Above the file display/structure of the repository on the top right, click the green "Code" dropdown.
-* To clone using HTTPS, copy the link using the clipboard icon. View [image](https://github.com/Gavin-1001/Gavin-1001.github.io/blob/main/assets/images/github_images/cloning-repo.PNG)
+* To clone using HTTPS, copy the link using the clipboard icon. See [image](https://github.com/Gavin-1001/Gavin-1001.github.io/blob/main/assets/images/github_images/cloning-repo.PNG) for reference on where to find the link to clone.
 * Open a terminal/command prompt window.
 * Create a folder to the location where you want to store the cloned repository. 
-
 * In the terminal type, and press enter.
 ```
 $ mkdir folder
