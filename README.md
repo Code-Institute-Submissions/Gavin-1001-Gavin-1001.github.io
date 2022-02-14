@@ -76,7 +76,7 @@ $ npm start
 *
 
 ## Cloning the Repository
-* Navigate to the main page of the repository (link)
+* Navigate to the main page of the repository [here](https://github.com/Gavin-1001/Gavin-1001.github.io)
 * Above the file display/structure of the repository on the top right, click the green "Code" dropdown.
 * To clone using HTTPS, copy the link using the clipboard icon. 
 * Open a terminal/command prompt window.
