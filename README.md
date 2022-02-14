@@ -5,7 +5,7 @@
 * [Design Brief](#design-brief)
 	* [Images](#Images)
 	* [Colours](#Colours)
-	* [Wireframe Diagrams](#wireframes-diagrams)
+	* [Wireframe Diagrams](#Wireframe-Diagrams)
 	* [Fonts](#font)
 * [Technologies](#technologies)
 * [Testing](#testing)
