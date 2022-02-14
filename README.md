@@ -10,7 +10,7 @@
 	* [Wireframe Diagrams](#Wireframe-Diagrams)
 	* [Fonts](#font)
 * [Technologies](#technologies)
-* [Issues/Bugs](#issues/bugs)
+* [Issues](#issues)
 * [Testing](#testing)
 * [Deployment](#deployment)
 * [References](#references)
@@ -69,7 +69,7 @@ $ git clone https://github.com/Gavin-1001/Gavin-1001.github.io.git
 ```
 -->
 
-## Issues/Bugs
+## Issues
 There are two issues in this project:
 
 * When the background color was applied to the calender section, it shows the outline of the divs that hold the divs of the days of the week. Unfortunately I have be unable to fix this issue, so far, but plan on adding bootstrap to the calender to correct this background color issue. 
