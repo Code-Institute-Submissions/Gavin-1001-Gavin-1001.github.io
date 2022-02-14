@@ -10,7 +10,7 @@
 	* [Wireframe Diagrams](#Wireframe-Diagrams)
 	* [Fonts](#font)
 * [Technologies](#technologies)
-* [Issues/Bugs](#issues-bugs)
+* [Issues/Bugs](#issues/bugs)
 * [Testing](#testing)
 * [Deployment](#deployment)
 * [References](#references)
