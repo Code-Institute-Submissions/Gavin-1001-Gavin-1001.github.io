@@ -3,14 +3,13 @@
 * [General Introduction](#general-introduction)
 * [User Experience](#user-experience)
 * [Design Brief](#design-brief)
-	* [Images](#images)
-	* [Colours](#colours)
+	* [Images](#Images)
+	* [Colours](#Colours)
 	* [Wireframe Diagrams](#wireframes-diagrams)
 	* [Fonts](#font)
 * [Technologies](#technologies)
 * [Testing](#testing)
 * [Deployment](#deployment)
-* 
 
 ## General Introduction
 With the current situtation with people working from home, many are unable to detatch from work stresses and their mental health takes affect. The idea behind this webpage? is to bring awareness about meditation for FINSIH
