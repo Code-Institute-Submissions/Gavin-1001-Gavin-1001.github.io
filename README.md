@@ -66,7 +66,7 @@ $ npm start
 ```
 
 ## Testing
-* For the testing portion of this project, I used three different testing tools to test for vulnerabilities. Below I have sh 
+* For the testing portion of this project, I used W3C HTML Validation Service to validate my HTML, and again I used W3C CSS Validation to validate my CSS. Below I have linked the screenshots of my error free [HTML](Gavin-1001.github.io/assets/images/test_screenshots/HTML_Validation) and [CSS](Gavin-1001.github.io/assets/images/test_screenshots/CSS_Validation). 
 
 ## Deployment
 * Visit my Github Repository.
@@ -79,10 +79,9 @@ $ npm start
 * Above the file display/structure of the repository on the top right, click the green "Code" dropdown.
 * To clone using HTTPS, copy the link using the clipboard icon. View [image](https://github.com/Gavin-1001/Gavin-1001.github.io/blob/main/assets/images/github_images/cloning-repo.PNG)
 * Open a terminal/command prompt window.
-* Create a directory to the location where you want to store the cloned repository. 
+* Create a folder to the location where you want to store the cloned repository. 
 * In the terminal type git clone https://github.com/Gavin-1001/Gavin-1001.github.io.git, and press enter.
-* 
-*
+* Open the folder in your favourite IDE, and the code should be displayed. 
 
 ## Contributing to the Repository 
 * You are more than welcome to contributing to the repository, I look forward to seeing your work!
