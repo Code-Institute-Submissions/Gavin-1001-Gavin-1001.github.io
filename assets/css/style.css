@@ -89,9 +89,9 @@ h1
   padding-top: 60px;
 }
 
-#welcome_heading h2 {
+#welcome_heading h2{
   font-family: "Mochiy Pop P One", sans-serif;
-  font-size: 155%;
+  font-size: 100%;
   text-align: center;
 }
 
@@ -101,11 +101,13 @@ h1
   padding-right: 30px;
   padding-left: 30px;
   font-size: 125%;
-  font-family: Quicksand, sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 #what-is-meditation-section{
+  padding-top:2em;
   background-color:#e9fcff;
+  font-family: "Mochiy Pop P One", sans-serif;
 }
 
 #meditate-section{
@@ -222,16 +224,17 @@ div#bottom_container_narrower {
 #meditate-exercises-at-home{
     /*background-color: #e9fcff;*/
     background-color:#e9fcff;
-    padding-top: 0px;
+    padding-top: 2em;
 }
 
 #calender_section{
   background-color:#e9fcff;
+  padding-top: 2em;
 }
 
 #calender{
   text-align: center;
-  padding-top: 20px;
+  padding-top: 1em;
   font-family: "Mochiy Pop P One", sans-serif;
   font-size:210%;
 }
@@ -406,15 +409,6 @@ footer {
     clear: both;
   }
 
-  #hero-outer {
-    /*Remove the white space by bringing up the height on the hero-outer*/
-  }
-  /*
-     #container_top_narrower{
-         display:none;
-         visibility: hidden;
-     }
-  */
   #bottom_container_narrower {
     display: none;
     visibility: hidden;
@@ -424,6 +418,42 @@ footer {
     width: 10%;
     height: auto;
   }
+
+  .social-links{
+    text-align: center;
+  }
+
+  .social-links > li{
+    display: inline;
+  }
+
+  .social-links i {
+    font-size: 160%;
+    margin:1%;
+    padding:5%;
+    color:#3a3a3a;
+  }
+  /*
+  .social-links {
+  text-align: center;
+}
+
+.social-links > li {
+  display: inline; /*Displays the links to *
+}
+
+.social-links i {
+  font-size: 160%;
+  margin: 1%;
+  padding: 10%;
+  padding-top: 15px;
+  padding-bottom: 0px;
+  color: #3a3a3a;
+}
+  
+  
+  */
+
 }
 
 

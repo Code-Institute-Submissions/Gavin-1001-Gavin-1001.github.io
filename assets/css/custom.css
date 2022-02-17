@@ -10,6 +10,8 @@
 .container{
     background-color: #e9fcff;
     font-family: "Mochiy Pop P One", sans-serif;
+    font-size: 100%;
+    text-align: center;
 }
 
 
@@ -45,6 +47,7 @@ img{
 
 #paragrph{
     margin-top: 1.5em;
+    font-family: "Quicksand", sans-serif;
 }
 #calender{
     text-align: center;
@@ -56,6 +59,8 @@ img{
     margin-bottom: 0em;
     margin-left: 20em;
     margin-right: 20em;
+    font-size: 125%;
+    font-family: "Quicksand", sans-serif;
 }
 
 /*Contact Us*/
@@ -85,6 +90,7 @@ img{
 
 #firstName{
     margin-left: 30px;
+    
 }
 
 #lastName{
@@ -111,6 +117,10 @@ img{
     text-align: center;
 }
 
+.mb-3{
+    text-align:left;
+    ffont-family: "Mochiy Pop P One", sans-serif;
+}
 
 @media screen and (max-width: 750px){
     .text-center{
