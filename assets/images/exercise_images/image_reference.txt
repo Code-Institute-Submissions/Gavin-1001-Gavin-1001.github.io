@@ -1,0 +1,11 @@
+-- background image -- 
+https://www.shutterstock.com/image-photo/woman-meditate-mountains-295023719 - img_bg
+
+-- exercise images --
+https://www.istockphoto.com/en/photo/meditation-is-how-i-stay-focused-in-life-gm954650780-260649218 - img_1
+https://www.istockphoto.com/photo/meditation-gm477717062-59373944 - img_2
+https://www.pexels.com/photo/healthy-woman-relaxation-garden-6787202/ - img_3
+https://www.pexels.com/photo/woman-meditating-beside-her-dog-4056529/ - img_4
+https://www.pexels.com/photo/photo-of-woman-meditating-3759657/ - img_5
+
+
