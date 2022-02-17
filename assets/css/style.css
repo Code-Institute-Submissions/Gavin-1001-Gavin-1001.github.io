@@ -83,7 +83,7 @@ h1
 /*Sessions go here!!!!*/
 #welcome{
     background-color: #e9fcff;
-}
+  }
 
 #welcome_container {
   padding-top: 60px;
@@ -128,6 +128,10 @@ h1
   padding-top: 20px;
   background-color: #e9fcff;
   font-size: 110%;
+}
+
+#meditation_heading h2{
+  font-family: "Mochiy Pop P One", sans-serif;
 }
 
 #types_of_meditation{

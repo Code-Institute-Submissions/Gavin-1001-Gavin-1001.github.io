@@ -9,6 +9,7 @@
 
 .container{
     background-color: #e9fcff;
+    font-family: "Mochiy Pop P One", sans-serif;
 }
 
 
@@ -67,6 +68,10 @@ img{
 
     background:green;
     border-radius: 25px;
+}
+
+#meditation_heading{
+    margin-top: 2em;
 }
 
 #contact_us_h2{
