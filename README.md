@@ -55,9 +55,9 @@ The fonts that I chose are from the Google Fonts library. I chose to use Google 
 
 	
 ## Technologies
-* HTML
-* CSS
-* Bootstrap 5
+* [HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
+* [CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started)
+* [Bootstrap 5](https://getbootstrap.com/)
 <!--	
 ## Setup
 To run this project, install it locally using npm:
@@ -80,18 +80,35 @@ There are two issues in this project:
 * For the testing portion of this project, I used W3C HTML Validation Service to validate my HTML, and again I used W3C CSS Validation to validate my CSS. Below I have linked the screenshots of my error free [HTML](https://github.com/Gavin-1001/Gavin-1001.github.io/blob/main/assets/images/test_screenshots/HTML_Validation.png) and [CSS](https://github.com/Gavin-1001/Gavin-1001.github.io/blob/main/assets/images/test_screenshots/CSS_Validation.png). 
 
 ## Deployment
+
+### Local Deployment
+* Assuming you are using Gitpod, download the gitpod extension for [Chrome](https://chrome.google.com/webstore/detail/gitpod-always-ready-to-co/dodmmooeoklaejobgleioelladacbeki) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/gitpod/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search).
+* Return to my github repository.
+* On the upper right corner of the repository there is a green "Gitpod" button, click it, this will take you to Gitpod.
+* Create an account if you do not have one, otherwise login.
+* Github may ask you to authorize Gitpod. Click "Authorize gitpod-io
+* Gitpod will now open the repository.
+
+### Remote Deployment
 * Visit my Github Repository.
 * On the repository ribbon navigate to the "settings" tab.
 * On the left of the screen, navigate to the "Code and automation" section.
 * In the "Code and automation" section, click on the "Pages" button.
 
-## Cloning the Repository
+### Cloning / Forking
+#### Cloning
 * Navigate to the main page of the repository. 
 * Above the file display/structure of the repository on the top right, click the green "Code" dropdown.
 * To clone using HTTPS, copy the link using the clipboard icon. See [image](https://github.com/Gavin-1001/Gavin-1001.github.io/blob/main/assets/images/github_images/cloning-repo.PNG) for reference on where to find the link to clone.
 * Open a terminal/command prompt window.
 * Create a folder to the location where you want to store the cloned repository. 
 * In the terminal type, and press enter.
+
+#### Forking
+* You are more than welcome to contributing to the repository, I look forward to seeing your work!
+* To contribute to the project, navigate to the main page of the repository.
+* In the top right hand corner of the webpage click the "Fork" button.
+* You can now freely contribute to the project.
 ```
 $ mkdir folder
 $ cd folder
@@ -99,13 +116,10 @@ $ git clone https://github.com/Gavin-1001/Gavin-1001.github.io.git
 ```
 * Open the folder in your favourite IDE, and the code should be displayed. 
 
-## Contributing to the Repository 
-* You are more than welcome to contributing to the repository, I look forward to seeing your work!
-* To contribute to the project, navigate to the main page of the repository.
-* In the top right hand corner of the webpage click the "Fork" button.
-* You can now freely contribute to the project.
 
 ## References
-* Getty Images
+* [Shutterstock](https://www.shutterstock.com/)
+* [istockphoto](https://www.istockphoto.com/)
+* [Pexels](https://www.pexels.com/)
 * https://www.verywellmind.com/learn-how-to-meditate-3144793 
 * https://www.mindful.org/how-to-meditate/
