@@ -202,21 +202,6 @@ div#bottom_container_narrower {
  /* background-color: #e9fcff; */
 } /*Added*/
 
-/*     -- bootstrap navbar --         
-.navbar-brand {
-  font-family: "Mochiy Pop P One", cursive;
-  font-size: 350%;
-}
-
-.navbar-nav li {
-  font-family: "Mochiy Pop P One", cursive;
-  font-size: 210%;
-}*/
-/* -- END -- */
-
-/***** -- What is Meditation section -- *****/
-
-
 #meditate-intro-heading{
     background-color: #e9fcff;
 }
@@ -368,20 +353,6 @@ footer {
   padding-left: 1065px;
 }
 
-/* ///////////////////// CONTACT US ///////////////////// */
-/*
-@media only screen and (max-width:1200px){
-    #session-bar{
-        width:65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-    #container-top{
-        padding: 30px 0;
-        margin: 0;
-    }
-}
- */
 
 @media screen and (max-width: 750px) {
   #background-image {
@@ -433,31 +404,5 @@ footer {
     padding:5%;
     color:#3a3a3a;
   }
-  /*
-  .social-links {
-  text-align: center;
-}
-
-.social-links > li {
-  display: inline; /*Displays the links to *
-}
-
-.social-links i {
-  font-size: 160%;
-  margin: 1%;
-  padding: 10%;
-  padding-top: 15px;
-  padding-bottom: 0px;
-  color: #3a3a3a;
-}
-  
-  
-  */
 
 }
-
-
-/*
-      https://stackoverflow.com/questions/27853884/media-queries-and-image-swapping
-      stackoverflow article on @media for image images
-      */
