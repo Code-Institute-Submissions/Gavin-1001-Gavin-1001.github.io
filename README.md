@@ -48,7 +48,7 @@ Before beginning the project I created 3 wireframe diagrams using the wireframe 
 * [Mobile](https://github.com/Gavin-1001/Gavin-1001.github.io/blob/main/assets/images/wireframes/wireframe3_mobile.bmpr)
 
 Fonts:
-The fonts that I chose are from the Google Fonts library. I chose to use Google Fonts as there is a better selection of fonts/ font styles compared to other libraries. Below I have included the fonts that were used in the project.
+The fonts that I chose are from the Google Fonts library. I chose to use [Google Fonts](https://fonts.google.com/) as there is a better selection of fonts/ font styles compared to other libraries. Below I have included the fonts that were used in the project.
 
 * All heading tags - Mochiy Pop P One, sans-serif.
 * All p tags - Quicksand, sans-serif.
