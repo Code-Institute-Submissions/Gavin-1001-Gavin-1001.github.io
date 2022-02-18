@@ -72,9 +72,9 @@ $ git clone https://github.com/Gavin-1001/Gavin-1001.github.io.git
 ## Issues
 There are two issues in this project:
 
-* When the background color was applied to the calender section, it shows the outline of the divs that hold the divs of the days of the week. Unfortunately I have be unable to fix this issue, so far, but plan on adding bootstrap to the calender to correct this background color issue. 
+* When the background color was applied to the calender section, it shows the outline of the divs that hold the divs of the days of the week. Unfortunately I have be unable to fix this issue, so far, but plan on adding bootstrap to the calender to correct this background color issue. - FIXED
 
-* Another issue that I encountered was with the images when reducing the sizes to make it compatible on mobile devices. In the near future I plan on moving the images above or below the exercise block of text. 
+* Another issue that I encountered was with the images when reducing the sizes to make it compatible on mobile devices. In the near future I plan on moving the images above or below the exercise block of text. - FIXED
 
 ## Testing
 * For the testing portion of this project, I used W3C HTML Validation Service to validate my HTML, and again I used W3C CSS Validation to validate my CSS. Below I have linked the screenshots of my error free [HTML](https://github.com/Gavin-1001/Gavin-1001.github.io/blob/main/assets/images/test_screenshots/HTML_Validation.png) and [CSS](https://github.com/Gavin-1001/Gavin-1001.github.io/blob/main/assets/images/test_screenshots/CSS_Validation.png). 
@@ -123,3 +123,4 @@ $ git clone https://github.com/Gavin-1001/Gavin-1001.github.io.git
 * [Pexels](https://www.pexels.com/)
 * https://www.verywellmind.com/learn-how-to-meditate-3144793 
 * https://www.mindful.org/how-to-meditate/
+* All images are referenced [here](https://github.com/Gavin-1001/Gavin-1001.github.io/blob/main/assets/images/exercise_images/image_reference.txt)
