@@ -117,10 +117,9 @@ $ git clone https://github.com/Gavin-1001/Gavin-1001.github.io.git
 * Open the folder in your favourite IDE, and the code should be displayed. 
 
 
-
-
-
 ## References
-* Getty Images
+* [Shutterstock](https://www.shutterstock.com/)
+* [istockphoto](https://www.istockphoto.com/)
+* [Pexels](https://www.pexels.com/)
 * https://www.verywellmind.com/learn-how-to-meditate-3144793 
 * https://www.mindful.org/how-to-meditate/
