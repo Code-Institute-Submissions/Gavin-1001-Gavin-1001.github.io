@@ -212,12 +212,12 @@ div#bottom_container_narrower {
     padding-top: 2em;
 }
 
-#calender_section{
+#calendar_section{
   background-color:#e9fcff;
   padding-top: 2em;
 }
 
-#calender{
+.calendar{
   text-align: center;
   padding-top: 1em;
   font-family: "Mochiy Pop P One", sans-serif;
